@@ -1,0 +1,105 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  @apply md:text-base lg:text-[1.1vw];
+}
+
+.button-animation {
+  // @apply overflow-hidden;
+
+  &.active {
+    .sun {
+      @apply -translate-y-6 opacity-0;
+    }
+    .moon {
+      @apply translate-y-0 opacity-100;
+    }
+  }
+}
+
+body {
+  @apply ease-linear duration-300 transition-all text-dark bg-light font-light;
+  --logo1: #ff8dc7;
+  --logo2: #ffacc7;
+}
+
+.light {
+  @apply text-light;
+  --logo1: #b6e388;
+  --logo2: #e1ffb1;
+
+  .menu-button {
+    span {
+      @apply bg-light ease-custom transition-all duration-200 #{!important};
+    }
+  }
+}
+
+header svg path {
+  @apply ease-linear transition-all duration-300;
+}
+
+.effect {
+  @apply transition-all duration-75 ease-custom;
+
+  &--100 {
+    @apply duration-100;
+  }
+
+  &--150 {
+    @apply duration-150;
+  }
+
+  &--200 {
+    @apply duration-200;
+  }
+
+  &--300 {
+    @apply duration-300;
+  }
+
+  &--500 {
+    @apply duration-500;
+  }
+
+  &--700 {
+    @apply duration-700;
+  }
+
+  &--1000 {
+    @apply duration-1000;
+  }
+}
+
+.dark-scheme {
+  color-scheme: dark;
+  body {
+    @apply bg-dark text-light;
+  }
+
+  .show {
+    @apply opacity-0 invisible;
+  }
+
+  .test-effect {
+    @apply text-light #{!important};
+  }
+
+  .menu-button {
+    span {
+      @apply bg-light;
+    }
+  }
+}
+
+.light-scheme {
+  color-scheme: light;
+}
+
+// @media (prefers-color-scheme: dark) {
+//   html {
+//     @apply bg-dark text-light ease-custom duration-300 transition-all;
+//   }
+// }

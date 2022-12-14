@@ -1,0 +1,27 @@
+.grid-item {
+  @apply bg-dark hover:bg-transparent;
+
+  &:nth-child(1) {
+    @apply row-[1_/_4] col-[2_/_13] md:col-[2_/_6] md:row-[1_/_3];
+  }
+
+  &:nth-child(2) {
+    @apply col-[3_/_12] row-[4_/_6] md:col-[2_/_8] md:row-[3_/_3];
+  }
+
+  &:nth-child(3) {
+    @apply col-[2_/_13] row-[6_/_8] md:col-[6_/_13] md:row-[1_/_2];
+  }
+
+  &:nth-child(4) {
+    @apply col-[5_/_13] row-[8_/_10] md:col-[6_/_9] md:row-[2_/_2];
+  }
+
+  &:nth-child(5) {
+    @apply col-[2_/_13] row-[12_/_14] md:col-[9_/_13] md:row-[2_/_2];
+  }
+
+  &:nth-child(6) {
+    @apply col-[2_/_10] row-[10_/12] md:col-[8_/_13] md:row-[3_/_3];
+  }
+}
