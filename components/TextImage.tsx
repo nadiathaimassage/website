@@ -1,5 +1,9 @@
 import Image from 'next/image'
 
+const data = {
+  content: "Nadia, the owner of Nadia Thai Massage & Wellness, has years of experience with Thai massage and will let you relax completely. Physical complaints can even disappear as a result. "
+}
+
 export const TextImage = ({ id, state }: any) => {
   return (
     <section
@@ -8,8 +12,8 @@ export const TextImage = ({ id, state }: any) => {
       className={`pt-2xl grid grid-cols-[4vw_repeat(11,_minmax(0,_1fr))_4vw] gap-y-24`}
     >
       <div className="col-[3_/_12] md:mr-xs md:col-[3_/_7] z-10 row-[1] flex items-center md:mix-blend-difference">
-        <h2 className="text-4xl md:text-6xl font-newYork">
-          Sed vel lacinia velit. Sed vel nulla ac sem malesuada auctor.
+        <h2 className="text-2xl md:text-4xl font-newYork">
+          {data.content}
         </h2>
       </div>
       <Image

@@ -3,6 +3,10 @@ import SoftFlower from '../public/SoftFlower.svg'
 import { useContext } from 'react'
 import { SmootherContext } from './Smoother'
 
+const data = {
+  content: "At Nadia Thai Massage & Wellness you will have time to relax your body and mind."
+}
+
 export const Hero = ({ state }: any) => {
   const smoother: any = useContext(SmootherContext)
   return (
@@ -11,13 +15,13 @@ export const Hero = ({ state }: any) => {
       className={`text-light bg-[url('../public/yas.JPG')] bg-no-repeat bg-cover relative`}
     >
       <div className="md:min-h-[70vh] bg-dark/50 grid grid-cols-[4vw_repeat(11,_minmax(0,_1fr))_4vw]">
-        <div className="col-[3_/_12] md:col-[3_/_10] py-32 md:py-xl justify-center flex flex-col space-y-4 md:space-y-md">
+        <div className="col-[3_/_12] md:col-[3_/_10] py-32 md:py-xl justify-center flex flex-col space-y-4 md:space-y-sm">
           <div className="space-y-xs">
             <Mithosis className="h-3 md:h-[1vw] effect--500 hover:rotate-180 w-auto" />
-            <h3 className="text-xl md:text-2xl">Subheading</h3>
+            <h3 className="text-lg md:text-xl">Sawatdee kha, welcome</h3>
           </div>
-          <h2 className="text-4xl md:text-6xl font-newYork">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur a dui dui.
+          <h2 className="text-3xl md:text-5xl font-newYork">
+            {data.content}
           </h2>
           <div
             onClick={() => smoother.scrollTo('#contact', true)}

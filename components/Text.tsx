@@ -1,6 +1,10 @@
 import Mithosis from '../public/MithosisAlt.svg'
 import Image from 'next/image'
 
+const data = {
+  content: "Nadia studied Thai massage at a young age and has also learned Thai massage at Wat Pho in Thailand. She will take all the time and listen carefully to any complaints you may have, so that she can effectively focus on the tense areas. Thai massage will help you reduce stress, eliminates pain and lets you sleep better."
+}
+
 export const Text = ({ state }: any) => {
   return (
     <section
@@ -10,10 +14,10 @@ export const Text = ({ state }: any) => {
       <div className="col-[3_/_12] md:col-[5_/_10] space-y-4 md:space-y-md">
         <div className="space-y-xs">
           <Mithosis className="h-3 md:h-[1vw] effect--500 hover:rotate-180 w-auto" />
-          <h3 className="text-xl md:text-2xl">Subheading</h3>
+          <h3 className="text-lg md:text-xl">About</h3>
         </div>
-        <h2 className="text-4xl md:text-6xl font-newYork">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur a dui dui.
+        <h2 className="text-2xl md:text-3xl font-newYork">
+          {data.content}
         </h2>
       </div>
       <Image

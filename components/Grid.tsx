@@ -5,8 +5,8 @@ import { GridItem } from './GridItem'
 const gridData = [
   {
     image: `/IMG_6259.jpg`,
-    subheading: 'Head Shoulder Back Massage',
-    description: 'A short description about whatever this is supposed to be.',
+    subheading: 'Nuad Thai',
+    description: 'With Nuad Thai we will use our hands, elbows, knees and feet to massage our clients to open up blocked routes. It is a traditional Thai massage and we don’t use oil with this massage.',
     price: {
       minutes: 28,
       hours: 50,
@@ -15,7 +15,7 @@ const gridData = [
   {
     image: `/KNOT.jpg`,
     subheading: 'Thai Herbal Massage',
-    description: 'A short description about whatever this is supposed to be.',
+    description: 'With this massage we use herb stamps that are filled with therapeutic herbs. Thai Herbal massage relieves pain and tension in your body.',
     price: {
       minutes: 35,
       hours: 60,
@@ -23,8 +23,8 @@ const gridData = [
   },
   {
     image: `/turd.jpg`,
-    subheading: 'Relaxing Massage',
-    description: 'A short description about whatever this is supposed to be.',
+    subheading: `Relaxing Massage / Pregnancy Massage`,
+    description: 'With relaxing massage or pregnancy massage we will use our hands on your body. This massage is pain free and is an effective way to de-stress and relax your mind and body.',
     price: {
       minutes: 28,
       hours: 50,
@@ -32,8 +32,8 @@ const gridData = [
   },
   {
     image: `/IMG-20221017-WA0011.jpg`,
-    subheading: 'Feet Massage',
-    description: 'A short description about whatever this is supposed to be.',
+    subheading: 'Foot Massage',
+    description: 'With foot massage we will use our hands, fingers and knuckles to massage the feet. This massage will reduce stress, improve your blood circulation and helps to increase oxygen in the body.',
     price: {
       minutes: 28,
       hours: 50,
@@ -41,8 +41,8 @@ const gridData = [
   },
   {
     image: `/IMG-20221017-WA0005.jpg`,
-    subheading: 'Leg Massage',
-    description: 'A short description about whatever this is supposed to be.',
+    subheading: 'Deep Tissue Massage',
+    description: 'With deep tissue massage we will focus on the muscles and skin layers that are deeper. This massage is perfect for when you are struggling with muscle pain or have knots. Choosing this massage will reduce pain and will make your movements easier than before.',
     price: {
       minutes: 28,
       hours: 50,
@@ -51,7 +51,7 @@ const gridData = [
   {
     image: `/IMG_6292.jpg`,
     subheading: 'Hot Stone Massage',
-    description: 'A short description about whatever this is supposed to be.',
+    description: 'With hot stone massage we use hot stones as a heat diffuser to different areas of the body instead of pressing with palms. The heat will help detoxify the pores and stimulate blood circulation.',
     price: {
       minutes: 35,
       hours: 60,
