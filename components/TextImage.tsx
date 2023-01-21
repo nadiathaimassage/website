@@ -28,7 +28,7 @@ export const TextImage = ({ id, state }: any) => {
       <Image
         style={{ aspectRatio: '8/10' }}
         className="col-[7_/_12] md:col-[9_/_12] row-[2] md:row-[1] -mt-xl object-cover rounded-2xl z-10"
-        src={'/IMG_6052.jpg'}
+        src={'/IMG_6052.JPG'}
         width={500}
         height={500}
         sizes="150vw"
