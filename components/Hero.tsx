@@ -12,7 +12,7 @@ export const Hero = ({ state }: any) => {
   return (
     <section
       data-state={state}
-      className={`text-light bg-[url('../public/yas.jpg')] bg-no-repeat bg-cover relative`}
+      className={`text-light bg-[url('../public/hemnoi.jpg')] bg-no-repeat bg-cover relative`}
     >
       <div className="md:min-h-[70vh] bg-dark/50 grid grid-cols-[4vw_repeat(11,_minmax(0,_1fr))_4vw]">
         <div className="col-[3_/_12] md:col-[3_/_10] py-32 md:py-xl justify-center flex flex-col space-y-4 md:space-y-sm">
