@@ -10,8 +10,8 @@ export const Footer = ({ id }: any) => {
       <div className="col-[3_/_12] row-[1] z-10 md:mix-blend-difference text-dark md:text-light test-effect">
         <h2 className="font-newYork text-6xl md:text-9xl leading-[1]">Interested?</h2>
         <p className="text-xl font-newYork md:text-3xl mb-md">
-          Write us an email <br />
-          or call us!
+          Write an email, call <br />
+          or text us via WhatsApp! 
         </p>
         <p className="text-base md:text-3xl font-light underline mb-xs hover:opacity-50 effect--300">
           {' '}
