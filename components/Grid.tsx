@@ -9,8 +9,8 @@ const gridData = [
     description:
       'With Nuad Thai we will use our hands, elbows, knees and feet to massage our clients to open up blocked routes. It is a traditional Thai massage and we don’t use oil with this massage.',
     price: {
-      minutes: 30,
-      hours: 55,
+      minutes: 35,
+      hours: 60,
     },
   },
   {
@@ -20,7 +20,7 @@ const gridData = [
       'With this massage we use herb stamps that are filled with therapeutic herbs. Thai Herbal massage relieves pain and tension in your body.',
     price: {
       minutes: 35,
-      hours: 60,
+      hours: 65,
     },
   },
   {
@@ -29,8 +29,8 @@ const gridData = [
     description:
       'With relaxing massage or pregnancy massage we will use our hands on your body. This massage is pain free and is an effective way to de-stress and relax your mind and body.',
     price: {
-      minutes: 30,
-      hours: 55,
+      minutes: 35,
+      hours: 60,
     },
   },
   {
@@ -39,8 +39,8 @@ const gridData = [
     description:
       'With foot massage we will use our hands, fingers and knuckles to massage the feet. This massage will reduce stress, improve your blood circulation and helps to increase oxygen in the body.',
     price: {
-      minutes: 30,
-      hours: 55,
+      minutes: 35,
+      hours: 60,
     },
   },
   {
@@ -49,8 +49,8 @@ const gridData = [
     description:
       'With deep tissue massage we will focus on the muscles and skin layers that are deeper. This massage is perfect for when you are struggling with muscle pain or have knots. Choosing this massage will reduce pain and will make your movements easier than before.',
     price: {
-      minutes: 30,
-      hours: 55,
+      minutes: 40,
+      hours: 70,
     },
   },
   {
