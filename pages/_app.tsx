@@ -1,7 +1,7 @@
 import '../styles/globals.scss'
 import type { AppProps } from 'next/app'
-import localFont from '@next/font/local'
-import { Poppins } from '@next/font/google'
+import localFont from "next/font/local"
+import { Poppins } from "next/font/google"
 
 export const NewYork = localFont({
   src: '../NewYork.woff2',
